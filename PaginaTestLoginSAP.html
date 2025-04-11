@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Login SAP Simulado</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+    input {
+      display: block;
+      margin-bottom: 15px;
+      padding: 8px;
+      width: 250px;
+    }
+    button {
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Login SAP</h2>
+
+  <input type="text" id="sap-user" placeholder="Usuario SAP">
+  <input type="password" id="sap-password" placeholder="Contraseña">
+  <button id="button" onclick="login()">Iniciar sesión</button>
+
+<!--
+  <script>
+    function login() {
+      const user = document.getElementById("sap-user").value;
+      const pass = document.getElementById("sap-password").value;
+
+      if (user && pass) {
+        alert(`Login exitoso con usuario: ${user}`);
+        // Aquí podrías redirigir, validar o simular una conexión.
+      } else {
+        alert("Por favor, rellena ambos campos.");
+      }
+    }
+
+    // Script para autocompletar y simular login (como el que preguntaste)
+    document.getElementById("sap-user").value = "TRF113";
+    document.getElementById("sap-password").value = "TRF113";
+    document.getElementById("button").click();
+  </script>
+-->
+</body>
+</html>
